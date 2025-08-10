@@ -20,6 +20,44 @@ A 4-day journey building different AI applications, from basic agents to RAG sys
 └── qabot/ # Retrieval-Augmented Generation with IBM Watsonx
 ```
 
+
+## 📦 Dependencies & Technologies
+
+### Day 1: Basic AI Agent
+| Package | Purpose |
+|---------|---------|
+| `streamlit` | Web interface for the chatbot |
+| `langchain-ollama` | Integration with Ollama's Gemma model |
+| `langchain-core` | Core LangChain functionality |
+| `langchain-community` | Chat message history storage |
+
+### Day 2: AI Voice Assistant
+| Package | Purpose |
+|---------|---------|
+| `pyttsx3` | Text-to-speech conversion |
+| `speech_recognition` | Voice input processing |
+| `pyaudio` | Audio input/output handling |
+| `threading` | Background speech synthesis |
+
+### Day 3: AI Web Scraper
+| Package | Purpose |
+|---------|---------|
+| `requests` | Fetching web page content |
+| `beautifulsoup4` | HTML parsing and text extraction |
+| `faiss` | Vector similarity search |
+| `numpy` | Numerical operations for embeddings |
+| `langchain-huggingface` | Sentence embeddings |
+
+### Day 4: Watsonx RAG System
+| Package | Purpose |
+|---------|---------|
+| `ibm-watsonx-ai` | IBM's AI model inference |
+| `langchain-ibm` | Watsonx integrations |
+| `chromadb` | Vector database for documents |
+| `gradio` | Web interface for PDF Q&A |
+| `pypdf` | PDF text extraction |
+
+
 ## 🚀 Daily Projects
 
 ### Day 1: Basic AI Agents
